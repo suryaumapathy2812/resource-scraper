@@ -1,0 +1,241 @@
+{
+    "variables": {
+        "types": [
+            "Identifier"
+        ],
+        "keywords": [
+            "var",
+            "let",
+            "const",
+            "global",
+            "local",
+            "hoisting",
+            "scope",
+            "closure"
+        ]
+    },
+    "data types": {
+        "types": [
+            "Literal"
+        ],
+        "keywords": [
+            "null",
+            "undefined",
+            "true",
+            "false",
+            "number",
+            "string",
+            "boolean",
+            "symbol",
+            "bigint",
+            "typeof"
+        ]
+    },
+    "conditionals": {
+        "types": [
+            "IfStatement",
+            "SwitchStatement"
+        ],
+        "keywords": [
+            "if",
+            "else",
+            "switch",
+            "case",
+            "default",
+            "ternary operator",
+            "truthy",
+            "falsy"
+        ]
+    },
+    "loops": {
+        "types": [
+            "ForStatement",
+            "WhileStatement",
+            "DoWhileStatement",
+            "ForInStatement",
+            "ForOfStatement"
+        ],
+        "keywords": [
+            "for",
+            "while",
+            "do",
+            "break",
+            "continue",
+            "iterator",
+            "generator"
+        ]
+    },
+    "functions": {
+        "types": [
+            "FunctionDeclaration",
+            "ArrowFunctionExpression"
+        ],
+        "keywords": [
+            "function",
+            "return",
+            "this",
+            "arguments",
+            "call",
+            "apply",
+            "bind",
+            "higher-order function"
+        ]
+    },
+    "arrays": {
+        "types": [
+            "ArrayExpression"
+        ],
+        "keywords": [
+            "push",
+            "pop",
+            "shift",
+            "unshift",
+            "slice",
+            "splice",
+            "forEach",
+            "map",
+            "filter",
+            "reduce",
+            "every",
+            "some"
+        ]
+    },
+    "objects": {
+        "types": [
+            "ObjectExpression"
+        ],
+        "keywords": [
+            "Object",
+            "Object.keys",
+            "Object.values",
+            "Object.assign",
+            "Object.entries",
+            "constructor",
+            "prototype",
+            "inheritance"
+        ]
+    },
+    "classes": {
+        "types": [
+            "ClassDeclaration"
+        ],
+        "keywords": [
+            "class",
+            "extends",
+            "constructor",
+            "super",
+            "get",
+            "set",
+            "static",
+            "private",
+            "public",
+            "protected"
+        ]
+    },
+    "DOM manipulation": {
+        "types": [
+            "CallExpression"
+        ],
+        "keywords": [
+            "document",
+            "querySelector",
+            "querySelectorAll",
+            "getElementById",
+            "createElement",
+            "innerHTML",
+            "setAttribute",
+            "addEventListener",
+            "removeEventListener",
+            "removeChild",
+            "appendChild",
+            "style",
+            "scroll",
+            "requestAnimationFrame"
+        ]
+    },
+    "AJAX": {
+        "types": [
+            "CallExpression"
+        ],
+        "keywords": [
+            "XMLHttpRequest",
+            "fetch",
+            "$.ajax",
+            "$.get",
+            "$.post",
+            "response",
+            "promise",
+            "async",
+            "await"
+        ]
+    },
+    "event handling": {
+        "types": [
+            "CallExpression"
+        ],
+        "keywords": [
+            "addEventListener",
+            "removeEventListener",
+            "event.target",
+            "event.preventDefault",
+            "event.stopPropagation",
+            "event bubbling",
+            "event capturing"
+        ]
+    },
+    "error handling": {
+        "types": [
+            "TryStatement"
+        ],
+        "keywords": [
+            "try",
+            "catch",
+            "finally",
+            "throw",
+            "Error",
+            "stack trace",
+            "debugging"
+        ]
+    },
+    "callbacks": {
+        "types": [
+            "CallExpression"
+        ],
+        "keywords": [
+            "callback",
+            "setTimeout",
+            "setInterval",
+            "requestAnimationFrame",
+            "Promise.resolve",
+            "Promise.reject"
+        ]
+    },
+    "promises": {
+        "types": [
+            "CallExpression",
+            "NewExpression"
+        ],
+        "keywords": [
+            "Promise",
+            "resolve",
+            "reject",
+            "then",
+            "catch",
+            "finally",
+            "async",
+            "await"
+        ]
+    },
+    "async/await": {
+        "types": [
+            "FunctionDeclaration",
+            "ArrowFunctionExpression"
+        ],
+        "keywords": [
+            "async",
+            "await",
+            "Promise.all",
+            "Promise.race"
+        ]
+    }
+}
